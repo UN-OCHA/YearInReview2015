@@ -1,2 +1,2 @@
 # UN OCHA Year in Review
-### Visual Information Unit team
+### Visual Information Unit
