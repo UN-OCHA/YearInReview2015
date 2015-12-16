@@ -1,0 +1,55 @@
+.graphic {
+    margin-top: 40px;
+}
+
+.adapt-viewport {
+    height: 100vh !important;
+}
+
+@media screen and (max-height: 500px) {
+    .adapt-viewport {
+        height: auto !important;
+    }
+}
+
+
+/*Fix svg nepal in IE*/
+
+.svg-canvas {
+    display: block;
+    height: 80%;
+    visibility: hidden;
+}
+
+.svg-container svg {
+    height: 80%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+/*Fix svg Pooled Funds in IE*/
+
+.displayIE {
+    display: block !important;
+}
+
+.hideIE {
+    display: none !important;
+}
+
+
+/*Remove vanuatu zoom not working*/
+
+.zoom {
+    display: none;
+}
+
+
+/*Hide Menu in IE*/
+
+.menu {
+    display: none !important;
+}
