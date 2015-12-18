@@ -153,7 +153,7 @@ p {
     line-height: 1.5;
     margin-bottom: 20px;
 }
-@media screen and (max-width:1200px) and (max-height:800px) {
+@media screen and (max-width:1440px) and (max-height:900px) {
     p {
         font-size: 1.25em;
     }
@@ -163,9 +163,10 @@ p {
         font-size: 1.25em;
     }
 }
+
 @media screen and (min-width:992px) and (max-width:1400px) and (max-height:785px) {
     p {
-        font-size: 1.25em;
+        font-size: 1.2em;
     }
 }
 b {
@@ -537,6 +538,7 @@ body {
     width: 30px;
     height: 30px;
     margin: 25px;
+    z-index: 9999999;
 }
 .menu span {
     margin: 0 auto;
@@ -728,8 +730,7 @@ hr {
 }
 .whs-report {
     width: 280px;
-    margin-top: 50px;
-    max-width: 320px !important;
+    max-width: 280px !important;
 }
 @media only screen and (max-height: 768px) {
     .whs-report {
@@ -1142,6 +1143,8 @@ hr {
     line-height: 1.5;
 }
 
+
+
 /*
 .popover-title {
     background: #00a6e6;
@@ -1385,14 +1388,14 @@ hr {
 
 /*..............links desktop and mobile*/
 .image-intro {
-    background-image: url(../img/intro.jpg);
+    background-image: url(https://ocha.smugmug.com/photos/i-CPdxQ9j/0/O/i-CPdxQ9j.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 @media screen and (max-width: 991px) {
     .image-intro {
-        background-image: url(../img/intro-xs.jpg);
+        background-image: url(https://ocha.smugmug.com/photos/i-tsF4qBj/0/O/i-tsF4qBj.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-position: center;
@@ -1400,13 +1403,13 @@ hr {
     }
 }
 .image-feb {
-    background-image: url(../img/feb.jpg);
+    background-image: url(https://ocha.smugmug.com/photos/i-gTG46Qb/0/O/i-gTG46Qb.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .image-feb-boxed {
-    background-image: url(../img/feb.jpg);
+    background-image: url(https://ocha.smugmug.com/photos/i-gTG46Qb/0/O/i-gTG46Qb.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1423,7 +1426,7 @@ hr {
     }
 }
 .image-may {
-    background-image: url(../img/may.jpg);
+    background-image: url(https://ocha.smugmug.com/photos/i-8nT6bfJ/0/O/i-8nT6bfJ.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1435,7 +1438,7 @@ hr {
     }
 }
 .image-jul {
-    background-image: url(../img/jul.jpg);
+    background-image: url(https://ocha.smugmug.com/photos/i-5bzpJzq/0/O/i-5bzpJzq.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1446,14 +1449,9 @@ hr {
         background: rgb(2, 108, 182);
     }
 }
-.image-chad {
-    background-image: url(../img/chad3.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
 .image-nov {
-    background-image: url(../img/el-nino.jpg);
+    background-image: url(https://ocha.smugmug.com/photos/i-wQ8fJvB/0/O/i-wQ8fJvB.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1465,28 +1463,19 @@ hr {
     }
 }
 .image-outro {
-    background-image: url(../img/outro.jpg);
+    background-image: url(https://ocha.smugmug.com/photos/i-SDfDvmw/0/O/i-SDfDvmw.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 @media screen and (max-width: 991px) {
     .image-outro {
-        background-image: url(../img/outro-xs.jpg);
+        background-image: url(https://ocha.smugmug.com/photos/i-pJmDwZv/0/O/i-pJmDwZv.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-position: center;
         background-size: cover;
     }
-}
-.image-bp {
-    background-image: url(../img/breakpoint.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.bp-quote {
-    height: 500px;
 }
 
 /*.......Months*/
@@ -1675,4 +1664,8 @@ img {
 }
 .small-margin-top {
     margin-top: 20px;
+}
+
+.z-1{
+    z-index: -1;
 }
